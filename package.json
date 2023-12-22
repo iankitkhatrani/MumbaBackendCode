@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "js2xmlparser": "^4.0.1",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.12.2",
+    "node-worker-threads-pool": "^1.5.1",
+    "nodemon": "^2.0.7",
+    "object-to-xml": "^2.0.0",
+    "xml-parser": "^1.2.1"
+  }
+}

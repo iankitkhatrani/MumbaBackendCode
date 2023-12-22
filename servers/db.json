@@ -1,0 +1,9 @@
+{
+    "DBCONNECT":"mongodb://dbadmin:adminpwd%24123@185.202.236.71:21997/gaming?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1",
+    "TESTDB":"mongodb://localhost:27017/prokasino9",
+    "ServerPort" : 8888,
+    "host": "127.0.0.1",
+    "port": 6379,
+    "auth_pass" : "",
+    "sportdb":0
+}
