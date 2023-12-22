@@ -33,7 +33,7 @@
   app.use(xmlparser());
   app.use('/player',(req,res,next)=>{ PlayerRouter(req,res,next); });
   app.get('*', (req, res) => { res.sendFile(path.join(config.BASEURL, 'clients/index.html')); });  
-  app.listen(DB.ServerPort, () => {   console.log(`Started server on => http://localhost:${DB.ServerPort}`); });
+  app.listen(DB.ServerPort, () => {   console.log(`Started server on => http://172.31.26.52:${DB.ServerPort}`); });
   app.on('error', (appErr, appCtx) => { console.log(appErr,appCtx) });
 
 // }
